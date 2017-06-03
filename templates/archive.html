@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <li>
+    {% for item in file_download_urls %}
+        <li></li><a href={{ item[1] }}>{{ item[0] }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
